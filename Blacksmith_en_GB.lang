@@ -1,0 +1,31 @@
+language.code=en-GB
+language=English
+
+mods.Blacksmith.verbs.smelt=Smelt
+
+mods.Blacksmith.machines.Forge.name=Forge
+mods.Blacksmith.machines.Forge.description=Allows you to smelt ore to cast ingots
+
+mods.Blacksmith.machines.Anvil.name=Anvil
+mods.Blacksmith.machines.Anvil.description=Allows you to upgrade your tools to the next tier
+
+mods.Blacksmith.metals.T1_Iron.IronOre_item.name=Iron Ore
+mods.Blacksmith.metals.T1_Iron.IronOre_item.description=Smelt in a forge
+
+mods.Blacksmith.metals.T1_Iron.IronIngot_item.name=Iron Ingot
+mods.Blacksmith.metals.T1_Iron.IronIngot_item.description=Tier 1 crafting material
+
+mods.Blacksmith.metals.T2_Copper.CopperOre_item.name=Copper Ore
+mods.Blacksmith.metals.T2_Copper.CopperOre_item.description=Smelt in a forge
+
+mods.Blacksmith.metals.T2_Copper.CopperIngot_item.name=Copper Ingot
+mods.Blacksmith.metals.T2_Copper.CopperIngot_item.description=Tier 2 crafting material
+
+mods.Blacksmith.metals.T3_Steel.SteelIngot_item.name=Steel Ingot
+mods.Blacksmith.metals.T3_Steel.SteelIngot_item.description=Tier 3 crafting material
+
+mods.Blacksmith.metals.T4_Gold.GoldOre_item.name=Gold Ore
+mods.Blacksmith.metals.T4_Gold.GoldOre_item.description=Smelt in a forge
+
+mods.Blacksmith.metals.T4_Gold.GoldIngot_item.name=Gold Ingot
+mods.Blacksmith.metals.T4_Gold.GoldIngot_item.description=Tier 4 crafting material

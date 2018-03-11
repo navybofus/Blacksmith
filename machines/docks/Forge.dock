@@ -1,0 +1,64 @@
+{
+  "code": "mods.Blacksmith.machines.docks.Forge",
+  "allowStacksForAllSites": true,
+  "craftingKeyword": "Smelt",
+  "removeReagentsOnCraftStart" : false,
+  "nameTagOffset": { "x": 0.0, "y": 1.1, "z": 0.0},
+  "resultSite": "ingotSite",
+  "effectSite": "fuelSite",
+  "sites": [
+    {
+      "siteName": "oreSite",
+      "compact" : true,
+      "craftSite": true,
+      "location": { "x": 0.0, "y": 1.6875, "z": 0.0},
+      "rotation": { "x": 0.0, "y": 0.0, "z": 0.0}
+    },
+    {
+      "siteName": "ingotSite",
+      "compact" : true,
+      "disallowManualDocking": true,
+      "location": { "x": 0.0, "y": 0.875, "z": 0.125},
+      "rotation": { "x": 0.0, "y": 0.0, "z": 0.0}
+    },
+    {
+      "siteName": "fuelSite",
+      "compact" : true,
+      "craftSite": true,
+      "location": { "x": 0.0, "y": 0.25, "z": 0.1875},
+      "rotation": { "x": 0.0, "y": 0.0, "z": 0.0}
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "smeltable",
+      "offset": { "x": 0.0, "y": 0.0, "z": 0.0},
+      "rotation": { "x": 0.0, "y": 0.0, "z": 0.0},
+      "placeSoundGroup": "staxel.sounds.place.Stone",
+      "effectTrigger": "staxel.effect.DockItem",
+      "sites": [
+        "oreSite"
+      ]
+    },
+    {
+      "category": "ingot",
+      "offset": { "x": 0.0, "y": 0.0, "z": 0.0},
+      "rotation": { "x": 0.0, "y": 0.0, "z": 0.0},
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "effectTrigger": "staxel.effect.DockItem",
+      "sites": [
+        "ingotSite"
+      ]
+    },
+    {
+      "category": "wood",
+      "offset": { "x": 0.0, "y": 0.0, "z": 0.0},
+      "rotation": { "x": 0.0, "y": 0.0, "z": 0.0},
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "effectTrigger": "staxel.effect.DockItem",
+      "sites": [
+        "fuelSite"
+      ]
+    }
+  ]
+}

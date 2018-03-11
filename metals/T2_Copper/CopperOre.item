@@ -1,0 +1,44 @@
+{
+  "categories": [
+    "orange",
+	"brown",
+    "forge",
+    "copper",
+    "ore",
+    "smeltable"
+  ],
+  "code": "mods.Blacksmith.metals.T2_Copper.CopperOre_item",
+  "icon": "mods/Blacksmith/metals/T2_Copper/CopperOre.qb",
+  "inHand": "mods/Blacksmith/metals/T2_Copper/CopperOre.qb",
+  "gatherable": {
+    "catchable": {
+      "avoidBuildingArea": true,
+      "spawnChance": 0.005,
+      "tile": "mods.Blacksmith.metals.T2_Copper.CopperOre_tile"
+    },
+    "isCatchable": true
+  },
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.25,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 72,
+    "value": 120
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

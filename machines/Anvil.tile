@@ -1,0 +1,31 @@
+{
+  "__inherits": "mods/Blacksmith/machines/docks/Anvil.config",
+  "interactVerb": "mods.Blacksmith.verbs.smelt",
+  "attachToBelow": true,
+  "categories": [
+    "gray",
+    "furniture",
+    "craftingStation",
+    "tool",
+    "forge",
+    "ore",
+    "ingot"
+  ],
+  "code": "mods.Blacksmith.machines.Anvil",
+  "compound": {
+    "size": {
+      "x": 2,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "descriptionImage": "mods/Blacksmith/ui/image/craftingIcons/SmeltIcon.png",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 360,
+    "value": 600
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.StoneFootSteps",
+  "voxels": "mods/Blacksmith/machines/Anvil.qb"
+}

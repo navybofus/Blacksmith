@@ -1,0 +1,31 @@
+{
+  "name": "Upgrade Iron Hoe",
+  "code": "mods.Blacksmith.crafting.reactions.UpgradeIronHoe",
+  "recipeStep": "Upgrade",
+  "moveResultsToSite": "toolSite",
+  "docks": [
+    "mods.Blacksmith.machines.docks.Anvil"
+  ],
+  "reagents": [
+    {
+      "code": "mods.Blacksmith.metals.T2_Copper.CopperIngot_item",
+      "quantity": 1
+    },
+    {
+      "code": "staxel.item.crafting.RawWood",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.tool.Hoe",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.Blacksmith.tools.CopperHoe"
+    }
+  ],
+  "duration": 10,
+  "effect": "staxel.effect.crafting.SeedMaker",
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}

@@ -1,0 +1,39 @@
+{
+  "categories": [
+    "copper",
+    "tool",
+    "watering",
+    "can"
+  ],
+  "code": "mods.Blacksmith.tools.CopperWateringCan",
+  "icon": "mods/Blacksmith/tools/CopperWateringCan.qb",
+  "inHand": "mods/Blacksmith/tools/CopperWateringCan.qb",
+  "inHandOffset": {
+    "x": 0.15,
+    "y": -0.5625,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": -1.04,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "interactVerb": "controlHint.verb.Water",
+  "kind": "staxel.item.WateringCan",
+  "paramAnimator": "staxel.paramAnimation.WateringCan",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 24,
+    "value": 40
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "wateringCan": {
+    "particles": "staxel.particle.item.WateringCanWater",
+    "sound": "staxel.sound.WateringCanPour"
+  }
+}

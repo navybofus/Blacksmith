@@ -1,0 +1,24 @@
+{
+  "code": "staxel.treasure.storeShelf.BuildingStoreTools",
+  "additive": true,
+  "entries": [
+    {
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.Blacksmith.machines.Forge"
+        }
+      ]
+    },
+    {
+      "weight": 1,
+      "items": [
+        {
+          "kind": "staxel.item.Placer",
+          "tile": "mods.Blacksmith.machines.Anvil"
+        }
+      ]
+    }
+  ]
+}

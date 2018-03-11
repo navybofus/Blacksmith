@@ -1,0 +1,34 @@
+{
+  "categories": [
+    "orange",
+    "forge",
+    "copper",
+    "ingot"
+  ],
+  "code": "mods.Blacksmith.metals.T2_Copper.CopperIngot_item",
+  "icon": "mods/Blacksmith/metals/T2_Copper/CopperIngot.qb",
+  "inHand": "mods/Blacksmith/metals/T2_Copper/CopperIngot.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.25,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "isDockable": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 168,
+    "value": 280
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

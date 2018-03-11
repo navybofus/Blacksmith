@@ -1,0 +1,32 @@
+{
+  "__inherits": "mods/Blacksmith/machines/docks/Forge.config",
+  "interactVerb": "mods.Blacksmith.verbs.smelt",
+  "attachToBelow": true,
+  "categories": [
+    "gray",
+    "black",
+    "furniture",
+    "craftingStation",
+    "tool",
+    "forge",
+    "ore",
+    "ingot"
+  ],
+  "code": "mods.Blacksmith.machines.Forge",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 2,
+      "z": 1
+    }
+  },
+  "descriptionImage": "mods/Blacksmith/ui/image/craftingIcons/SmeltIcon.png",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 600,
+    "value": 1000
+  },
+  "searchable": true,
+  "stepSoundGroup": "staxel.sounds.StoneFootSteps",
+  "voxels": "mods/Blacksmith/machines/Forge.qb"
+}

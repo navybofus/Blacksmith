@@ -1,0 +1,52 @@
+{
+  "__inherits": "staxel/tileObject/base.config",
+  "categories": [],
+  "autoTileInfo": [
+    {
+      "directionsToLookIn": [
+        {
+          "direction": "down",
+          "tileCategoriesToLookFor": [
+            "grass",
+            "stone",
+            "dirt"
+          ],
+          "tileCategoriesToReject": [
+            "plant",
+            "weed",
+            "rock"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "tileToPlace": "mods.Blacksmith.metals.T2_Copper.CopperOre_tile"
+        }
+      ]
+    }
+  ],
+  "placementDirections": [
+    "yn"
+  ],
+  "mineable": { },
+  "prefetchTileState": true,
+  "randomizePosition": true,
+  "tileStateKind": "staxel.tileState.Catchable",
+  "searchable": false,
+  "code": "mods.Blacksmith.metals.T2_Copper.CopperOre_tile",
+  "compound": {
+    "size": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  },
+  "pricing": {
+    "buyable": false,
+    "sellPrice": 0,
+    "value": 999999
+  },
+  "stepSoundGroup": "staxel.sounds.StoneFootSteps",
+  "voxels": "mods/Blacksmith/metals/T2_Copper/CopperOre.qb",
+  "attachToBelow": true
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Upgrade Iron Pickaxe",
+  "code": "mods.Blacksmith.crafting.reactions.UpgradeIronPickaxe",
+  "recipeStep": "Upgrade",
+  "moveResultsToSite": "toolSite",
+  "docks": [
+    "mods.Blacksmith.machines.docks.Anvil"
+  ],
+  "reagents": [
+    {
+      "code": "mods.Blacksmith.metals.T2_Copper.CopperIngot_item",
+      "quantity": 6
+    },
+    {
+      "code": "staxel.item.crafting.RawWood",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.tool.Pickaxe",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.Blacksmith.tools.CopperPickaxe"
+    }
+  ],
+  "duration": 10,
+  "effect": "staxel.effect.crafting.SeedMaker",
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}

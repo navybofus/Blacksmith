@@ -1,0 +1,11 @@
+{
+  "code": "mods.Blacksmith.treasure.GoldHarvest",
+  "entries": [
+    {
+      "weight": 100.0,
+      "items": [
+        { "code": "mods.Blacksmith.metals.T4_Gold.GoldOre_item" }
+      ]
+    }
+  ]
+}

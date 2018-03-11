@@ -1,0 +1,36 @@
+{
+  "categories": [
+    "copper",
+    "tool",
+    "scythe",
+    "sickle"
+  ],
+  "code": "mods.Blacksmith.tools.CopperScythe",
+  "icon": "mods/Blacksmith/tools/CopperScythe.qb",
+  "iconScale": 0.5,
+  "inHand": "mods/Blacksmith/tools/CopperScythe.qb",
+  "inHandOffset": {
+    "x": 0.02,
+    "y": -0.5,
+    "z": -0.05
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 3.14,
+    "z": -1.56
+  },
+  "interactVerb": "controlHint.verb.Reap",
+  "kind": "staxel.item.Scythe",
+  "paramAnimator": "staxel.paramAnimation.Hoe",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 18,
+    "value": 30
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

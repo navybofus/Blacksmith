@@ -1,0 +1,35 @@
+{
+  "categories": [
+    "tool",
+    "copper",
+    "tool",
+    "pickaxe"
+  ],
+  "code": "mods.Blacksmith.tools.CopperPickaxe",
+  "hitSound": "staxel.sounds.harvesting.Pickaxe.hit",
+  "icon": "mods/Blacksmith/tools/CopperPickaxe.qb",
+  "inHand": "mods/Blacksmith/tools/CopperPickaxe.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": -0.4,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": -1.54
+  },
+  "interactVerb": "controlHint.verb.Break",
+  "kind": "staxel.item.Pickaxe",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 24,
+    "value": 40
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

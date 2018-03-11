@@ -1,0 +1,31 @@
+{
+  "name": "Upgrade Iron Shovel",
+  "code": "mods.Blacksmith.crafting.reactions.UpgradeIronShovel",
+  "recipeStep": "Upgrade",
+  "moveResultsToSite": "toolSite",
+  "docks": [
+    "mods.Blacksmith.machines.docks.Anvil"
+  ],
+  "reagents": [
+    {
+      "code": "mods.Blacksmith.metals.T2_Copper.CopperIngot_item",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.RawWood",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.tool.Shovel",
+      "quantity": 1
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.Blacksmith.tools.CopperShovel"
+    }
+  ],
+  "duration": 10,
+  "effect": "staxel.effect.crafting.SeedMaker",
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}

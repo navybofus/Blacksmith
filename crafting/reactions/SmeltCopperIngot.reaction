@@ -1,0 +1,30 @@
+{
+  "name": "Smelt Copper Ingot",
+  "code": "mods.Blacksmith.crafting.reactions.SmeltCopperIngot",
+  "recipeStep": "Smelt",
+  "moveResultsToSite": "ingotSite",
+  "anyTool": true, 
+  "automated": true, 
+  "automationDelay": 3,
+  "docks": [
+    "mods.Blacksmith.machines.docks.Forge"
+  ],
+  "reagents": [
+    {
+      "code": "mods.Blacksmith.metals.T2_Copper.CopperOre_item",
+      "quantity": 2
+    },
+    {
+      "code": "staxel.item.crafting.RawWood",
+      "quantity": 2
+    }
+  ],
+  "results": [
+    {
+      "code": "mods.Blacksmith.metals.T2_Copper.CopperIngot_item"
+    }
+  ],
+  "duration": 5,
+  "effect": "staxel.effect.crafting.SeedMaker",
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}

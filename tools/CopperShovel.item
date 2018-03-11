@@ -1,0 +1,33 @@
+{
+  "categories": [
+    "tool",
+    "copper",
+    "shovel"
+  ],
+  "code": "mods.Blacksmith.tools.CopperShovel",
+  "damage": 1.0,
+  "damageSoundGroup": "shovel",
+  "hitSound": "staxel.sounds.damage.Shovel.dig",
+  "icon": "mods/Blacksmith/tools/CopperShovel.qb",
+  "iconScale": 0.5,
+  "inHand": "mods/Blacksmith/tools/CopperShovel.qb",
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "interactVerb": "controlHint.verb.Dig",
+  "kind": "staxel.item.Shovel",
+  "pricing": {
+    "buyable": true,
+    "sellPrice": 24,
+    "value": 40
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": -0.8,
+    "z": 0.0
+  },
+  "useBoxCollider": true
+}
